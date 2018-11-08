@@ -1,6 +1,6 @@
 ﻿//Unity 2D UFO Tutorial from 
 //https://unity3d.com/learn/tutorials/projects/2d-ufo-tutorial
-//updated to Unity 2018.2
+
 
 using System.Collections;
 using System.Collections.Generic;
