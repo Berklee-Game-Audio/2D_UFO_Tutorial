@@ -37,4 +37,14 @@ public class PlayerController : MonoBehaviour {
 		//move the player object with the 2D physics engine multplying by the speed factor
 		rb2d.AddForce(movement*speed);
 	}
+
+	private void OnTriggerEnter2D(Collider2D other)
+	{
+		//check to see if we collided with a Pickup
+		if (other.gameObject.CompareTag("PickUp"))
+		{
+			//disable the pickups once they are collided with
+			other.gameObject.SetActive (false);
+		}
+	}
 }
