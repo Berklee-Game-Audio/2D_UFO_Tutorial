@@ -84,6 +84,5 @@ public class PlayerController : MonoBehaviour {
 		{
 			winText.text = "You Win!!!";
 		}
-	
 	}
 }
